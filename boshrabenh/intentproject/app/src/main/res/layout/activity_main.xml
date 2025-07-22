@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- صورة دائرية كشعار -->
+    <ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/my_logo"
+    android:background="@drawable/circle_background"
+    android:scaleType="centerCrop"
+    android:padding="8dp"
+    android:layout_marginBottom="24dp" />
+
+
+    <!-- عنوان -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Technologies"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- رسالة ترحيب -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اضغط أدناه لزيارة صفحتنا الرسمية ومعرفة المزيد عن أنشطتنا وخدماتنا"
+        android:textSize="16sp"
+        android:textColor="#EEEEEE"
+        android:layout_marginBottom="60dp"/>
+
+    <!-- زر فتح الموقع -->
+    <Button
+        android:id="@+id/open_web_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الموقع الرسمي "
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#007FE9"
+        android:elevation="4dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp" />
+</LinearLayout>
